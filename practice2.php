@@ -7,9 +7,12 @@ if ($name = "Akiko"){
 }
 echo "\n";
 
-for ($i = 0 ; $i > 10000 ; $i++){
-    echo $i;
+$total = 0;
+for ($i = 0 ; $i <= 10000 ; $i++){
+    $total += $i;
 }
+echo $total;
+
 echo "\n";
 
 $fruits =array("apple","orange","banana","mango","painapple");
